@@ -1,11 +1,14 @@
 h2{
     font-size: 3rem;
-    font-weight: 50px;
     text-align: center;
+    font-size: 3rem;
+    font-weight: normal;
+    font-style: oblique;
+    color: wheat;
 }
 
 .detailsContainer{
-    color: #d1cbbe;
+    color:  wheat;
     display: flex;
     flex-wrap: wrap;
     margin: 3rem;
@@ -23,5 +26,5 @@ h2{
 }
 
 strong{
-    color: black;
+    color: white;
 }

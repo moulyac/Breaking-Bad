@@ -6,7 +6,8 @@
    
 }
 a{
-    color:black
+    color:#d89b9b;
+    font-family: serif
 }
 body{
     background-color: #ac0e0e;
@@ -15,11 +16,11 @@ h1{
     margin: 1rem;
     text-align: center;
     font-size: 4rem;
-    font-weight: 100px;
 }
 .namesCardContainer{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     font-size: 2rem;
 }
 .nameCard{
