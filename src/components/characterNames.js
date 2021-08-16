@@ -19,7 +19,7 @@ const CharacterNames = ()=>{
             return <div key={character.char_id} class='nameCard'><Link to={`/character/${character.char_id}`}>
                   {character.name}
                 <div>
-                  <img src={character.img} alt='not found' style={{height:'47vh', width:'20vw',padding:'1rem'}}/>
+                  <img src={character.img} alt='not found' style={{height:'18rem', width:'15rem',padding:'1rem'}}/>
                 </div>
                 </Link>
               </div>

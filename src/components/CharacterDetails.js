@@ -45,7 +45,7 @@ const CharacterDetails = (props)=>{
                 </h3>
             </div>
             <div class='image'>
-                <img src={details.img} alt='not found' style={{height:'50vh', width:'20vw'}} />
+                <img src={details.img} alt='not found' style={{height:'18rem', width:'15rem'}} />
                 <h3>Portrayed by : {details.portrayed}</h3>
             </div>
         </div>
