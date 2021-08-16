@@ -1,0 +1,38 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+a{
+    color:black
+}
+body{
+    background-color: #ac0e0e;
+}
+h1{
+    margin: 1rem;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 100px;
+}
+.namesCardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2rem;
+}
+.nameCard{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 2%;
+    width: 22rem;
+    height: 22rem;
+    text-align: center;
+}

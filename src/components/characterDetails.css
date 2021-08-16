@@ -1,0 +1,27 @@
+h2{
+    font-size: 3rem;
+    font-weight: 50px;
+    text-align: center;
+}
+
+.detailsContainer{
+    color: #d1cbbe;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3rem;
+    justify-content: space-around;
+    font-size: 1.3rem;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+    width: 50vw;
+}
+
+strong{
+    color: black;
+}
