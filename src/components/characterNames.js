@@ -13,6 +13,7 @@ const CharacterNames = ()=>{
               setCharactersDetails(data)
           })
     },[])
+    
     return<div class='namesCardContainer'>
         {
           charactersDetails.map((character,i)=>{
