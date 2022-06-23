@@ -15,6 +15,7 @@ const CharacterDetails = (props)=>{
               setDetails(data)
           })
     },[id])
+    
     return <div>{Object.keys(details).length? 
             <div>
                 <Link to='/'><i class="fa fa-arrow-left fa-1x" style={{margin:'0 1rem', fontSize:'1.4rem'}} aria-hidden="true"></i></Link>
